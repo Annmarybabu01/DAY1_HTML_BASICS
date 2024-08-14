@@ -1,0 +1,222 @@
+<!Doctype Html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourist places in kerala</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link ref="stylesheet" href="stylesheet.css">
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+            td{
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+            }
+            th{
+                text-align: center;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+            div {
+                color: chocolate;
+            }
+            #p {
+                text-align: center;
+            }
+            .dc{
+                background-color:black;
+            }
+        </style>
+    </head>
+    <body style="background-color:cornsilk;">
+        <h1 style="color:darkslategrey;text-align: center;">Places to Visit in Kerala</h1>
+        <p style="text-align: right;"><a href="#author">Author details</a></p><br>
+        <img src="/images/kerala.jpeg" alt="no images"  width="104" height="142"><br></br>>
+        <a href="https://en.wikipedia.org/wiki/Kerala">About Kerala</a>
+        <!--Paragraph about kerala-->
+        <p style="color:maroon;font-size:larger;"><em style="font-size: larger;">K</em>erala has an endless list of tourist destinations that will interest any traveller. Renowned for its scenic locations and natural beauty, Kerala is sure to enchant any nature lover with its hills, backwaters, beaches, waterfalls and wildlife. The state also has a rich heritage and thriving culture one can explore by visiting the various forts, palaces, museums, monuments and pilgrim centers. Both natural and manmade brilliance await you at every turn.</p>   
+        <p style="border:4px solid red;text-align: center;color: crimson;">Attention All Visitors: Landslide Warning in Wayand &#128565</p>
+        
+        <br>
+        <br>
+        <table style="width:50%;;">
+            <caption><b>Famous Places</b></caption>
+            <tr>
+              <th>Place</th>
+              <th>District</th>
+            </tr>
+            <tr>
+              <td>Kovalam Beach</td>
+              <td>Thiruvananthapuram</td>
+            </tr>
+            <tr>
+              <td>Munnar</td>
+              <td>Idukki </td>
+            </tr>
+            <tr>
+                <td>Cherai Beach</td>
+                <td>Ernakulam</td>
+              </tr>
+          </table>
+
+        <br><br>
+        <h4 style="text-align:center">Other famous places</h4>
+        <ol type="i">
+            <li>Thiruvananthapuram</li>
+            <ul style="list-style-type:circle;">
+                <dd><li>Padmanabhaswamy Temple</li></dd>
+                <dd><li>Sree Chitra Art Gallery</li></dd>
+                <dd><li>Napier Museum</li></dd>
+                
+              </ul>
+            <li>Kollam</li>
+            <ul style="list-style-type:circle;">
+                <li>Alleppey (Alappuzha) Backwaters</li>
+                <li>Munroe Island</li>
+                <li>Sasthamkotta Lake</li>
+              </ul>
+            <li>Kottayam</li>
+            <ul style="list-style-type:circle;">
+                <li>Vembanad Lake</li>
+                <li>Poonjar Palace</li>
+                <li>Kumarakom Bird Sanctuary</li>
+              </ul>
+          </ol>
+          <br><br>
+          <p>Expence to meet entire places: &euro; 321</p>
+
+          <br><br>
+
+          <br><br>
+          <h3 style="text-align:centre;">Book a Trip</h3>
+        <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" pattern="[A-Za-z]" autofocus><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" pattern="[A-Za-z]"><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" step="1">
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="html">MALE</label><br>
+                <input type="radio" id="female" name="gender" value="FEMALE">
+                <label for="css">FEMALE</label><br>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" maxlength="50" size="30" placeholder="abcd@gmail.com">
+                <label for="cars">Choose a place:</label>
+                <select id="cars" name="cars">
+                <option value="Padmanabhaswamy Temple">Padmanabhaswamy Temple</option>
+                <option value="Sree Chitra Art Gallery">Sree Chitra Art Gallery</option>
+                <option value="Napier Museum">Napier Museum</option>
+                <option value="Alleppey (Alappuzha) Backwaters">Alleppey (Alappuzha) Backwaters</option>
+                <option value="Munroe Island">Munroe Island</option>
+                <option value="Sasthamkotta Lake">Sasthamkotta Lake</option>
+                <option value="Vembanad Lake">Vembanad Lake</option>
+                <option value="all">All</option>
+            </select>  <br>
+            <label for="country_code">Country code:</label>
+            <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+            <input type="submit" value="Submit">
+            <label for="files">Upload ID proofs:</label>
+            <input type="file" id="files" name="files" multiple>
+            <label for="tourdate">Tour date (date and time):</label>
+            <input type="datetime-local" id="tourtime" name="tourtime" ><br><br>
+            <button type="button"
+                onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+                <input type="submit" value="Submit">
+        </form>
+       
+
+        <h3 style="text-align: center;color: darkred;">Precautions to be taken </h3>
+        <div class="dc">
+            <p id="p">When visiting Kerala, take health precautions by staying updated on vaccinations, using mosquito repellent, and consuming safe food and water. Prepare for the climate by packing for both the monsoon rains and humid weather. Prioritize safety by using reputable transport, dressing modestly, and respecting local customs. Support environmental conservation by avoiding littering and following wildlife guidelines. Keep emergency contacts handy, including local hospitals and your embassy, and carry copies of important documents. Lastly, learning a few Malayalam phrases can enhance your interaction with locals.</p>
+        </div>
+        <br><br>
+        <h2 style="text-align: center;color:darkolivegreen">Welcome to <span style="color:darkgreen;font-weight:bold;">Kerala</span></h2>
+
+        <br><br>
+        <button type="button" onclick="showHappinessMessage()">Click me if you are happy</button>
+        <script>
+            function showHappinessMessage() {
+                alert('I’m glad you are happy!');
+            }
+        </script>
+        <br>
+        <h4>Choose your satisfaction</h4>
+        <script>
+            function happy(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "/images/unhappy.jpg"
+              } else {
+                pic = "/images/happy.jpg"
+              }
+              document.getElementById('myImage').src = pic;    
+        }
+            </script>
+            
+            <img id="myImage" src="/images/happy.jpg" width="180" height="180">
+            
+            <p>
+            <button type="button" onclick="happy(1)">happy</button>
+            <button type="button" onclick="happy(0)">unhappy</button>
+            </p>
+        <br><br>
+        <h4>Review Submission</h4>
+        <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30">Enter here.</textarea><br>
+            <label for="homepage">For reference(URL):</label>
+            <input type="url" id="homepage" name="homepage">
+            <input type="submit" value="Submit">
+            <br><br>
+            <input type="submit">
+          </form>
+        <br><br>
+        <iframe src="learning_HTML.html" height="500" width="800" title="Iframe Example"></iframe>
+        <br><br>
+        <h4>methods to calculate area</h4>
+        <pre>
+            <code>
+            <var>x</var> = 2;
+            <var>y</var> = 6;
+            <var>z</var>= <var>x</var>*<var>y</var>;
+            </code>
+            </pre>
+        <address id="author" style="color:dimgrey;">
+            written by: Ann mary<br>
+            mailid: <a href="ann@gmail.com">ann@gmail.com</a><br>
+        </address>
+
+        <h1 style="font-family:'Courier New', Courier, monospace;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Times New Roman', Times, serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:Arial, Helvetica, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:cursive;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:fantasy;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:monospace;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:inherit;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:initial;"><b>Event Registration Form</b></h1>
+        <h1 style="font-family:unset;"><b>Event Registration Form</b></h1>
+    </body>
+</html>
